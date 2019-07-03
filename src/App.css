@@ -1,33 +1,27 @@
-.App {
-  text-align: center;
+body{width:100%;height:700px;margin:0;padding:0;}
+#demo{
+  align-content: center;
+  padding: 50px 50px 50px 50px;
+  width:500px;
+  margin:auto;
+  margin-top:10%;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+#addButton,#allButton{width:50%;height:50%}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+#buttons{height:100px;background:#2c3e50;}
+#buttons > p {width:49.95%;float:left;color:white;text-align:center;padding-top:25px;height:100%;margin:0;}
+#buttons > p:hover{background:#f1c40f;color:#2c3e50;cursor:pointer;}
+#addButton > input, #addButton > button{margin-top:20px;margin-left:105px;height:25px;border:none;border-radius:2px;}
+#name,#description,#quantity,#price{width:400px;}
+#email{width:175px;}
+
+
+
+#allButton >button{width:250px;margin-left:125px !important;margin-top:20px;height:25px;}
+
+
+
