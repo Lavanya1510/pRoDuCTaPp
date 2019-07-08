@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": "bbbb",
+      "description": "abcd",
+      "userid": 1,
+      "price": 250,
+      "quantity": 5
+    },
+    {
+      "id": "cxILx6O",
+      "description": "fg",
+      "price": 110,
+      "quantity": 10
+    },
+    {
+      "id": "hWBRZ0G",
+      "description": "aaa",
+      "price": 110,
+      "quantity": 10
+    },
+    {
+      "id": "BBTnBaC",
+      "description": "tshirt",
+      "price": 500,
+      "quantity": 50
+    }
+  ]
+}
